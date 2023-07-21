@@ -6,9 +6,10 @@ export default {
             sans: ['Poppins', 'sans-serif'],
         },
         colors: {
-            blue: '#3DB2FF',
-            blue2: '#0A9EFF',
-            light: '#FFFFFF',
+            transparent: 'transparent',
+            primary: '#3DB2FF',
+            primary2: '#0A9EFF',
+            light: '#EFEFEF',
             dark: '#121212',
         },
     },

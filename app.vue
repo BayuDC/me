@@ -8,6 +8,6 @@
         </Head>
     </Html>
     <Body class="text-light bg-dark">
-        <h1>Hello World</h1>
+        <NuxtPage />
     </Body>
 </template>
