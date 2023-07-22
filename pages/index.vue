@@ -3,13 +3,16 @@
 <template>
     <div class="min-h-screen flex items-center justify-center">
         <h1 class="font-bold text-center">
-            <div class="text-light-weak md:text-[24px] sm:text-[22px] text-[16px] mb-[20px]">Hello, I'm</div>
+            <div v-motion-slide-bottom class="text-light-weak md:text-[24px] sm:text-[22px] text-[16px] mb-[20px]">
+                Hello, I'm
+            </div>
             <div
                 class="text-transparent md:text-[144px] md:leading-[192px] sm:text-[132px] sm:leading-[176px] text-[64px] leading-[88px] gradient-white bg-clip-text"
             >
                 BayuDC
             </div>
             <div
+                v-motion-slide-top
                 class="text-transparent md:text-[48px] sm:text-[44px] text-[26px] mt-[40px] gradient-blue-pink bg-clip-text"
             >
                 A Web Developer
