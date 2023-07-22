@@ -3,9 +3,17 @@
 <template>
     <div class="min-h-screen flex items-center justify-center">
         <h1 class="font-bold text-center">
-            <div class="text-light/60 text-[24px] mb-2">Hello, I'm</div>
-            <div class="text-transparent text-[144px] leading-[192px] gradient-white bg-clip-text">BayuDC</div>
-            <div class="text-transparent text-[48px] mt-8 gradient-blue-pink bg-clip-text">A Web Developer</div>
+            <div class="text-light-weak md:text-[24px] sm:text-[22px] text-[16px] mb-[20px]">Hello, I'm</div>
+            <div
+                class="text-transparent md:text-[144px] md:leading-[192px] sm:text-[132px] sm:leading-[176px] text-[64px] leading-[88px] gradient-white bg-clip-text"
+            >
+                BayuDC
+            </div>
+            <div
+                class="text-transparent md:text-[48px] sm:text-[44px] text-[26px] mt-[40px] gradient-blue-pink bg-clip-text"
+            >
+                A Web Developer
+            </div>
         </h1>
     </div>
 </template>
@@ -14,9 +22,9 @@
 .gradient-white {
     background-image: linear-gradient(
         45deg,
-        theme('colors.secondary') -100%,
+        theme('colors.primary') -200%,
         theme('colors.light'),
-        theme('colors.secondary') 200%
+        theme('colors.secondary') 300%
     );
 }
 .gradient-blue-pink {
@@ -26,7 +34,7 @@
         90deg,
         theme('colors.primary') 10%,
         theme('colors.secondary') 50%,
-        theme('colors.secondary') 60%,
+        theme('colors.secondary') 55%,
         theme('colors.primary') 100%
     );
 }
