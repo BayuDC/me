@@ -8,6 +8,8 @@
         </Head>
     </Html>
     <Body class="text-light bg-dark min-w-[320px]">
-        <NuxtPage />
+        <NuxtLayout>
+            <NuxtPage />
+        </NuxtLayout>
     </Body>
 </template>

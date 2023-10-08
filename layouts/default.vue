@@ -1,11 +1,10 @@
 <script lang="ts" setup>
 const ready = useReady();
+const route = useRoute();
 </script>
 
 <template>
-    <div class="mt-36">
-        <div>Page: foo</div>
-    </div>
+    <Navbar class="top-0 border-b-2" />
 </template>
 
 <style scoped></style>

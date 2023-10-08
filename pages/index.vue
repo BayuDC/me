@@ -1,22 +1,29 @@
 <script lang="ts" setup>
-const ready = ref(false);
+definePageMeta({
+    layout: 'empty',
+});
+
+const ready = useReady();
 </script>
 
 <template>
     <div>
         <ClientOnly>
-            <Background @ready="ready = true" />
+            <Background @ready="ready.state1 = true" />
         </ClientOnly>
         <div
-            class="h-screen flex items-center justify-center z-10 transition-[background-color] duration-1000 delay-300 relative"
-            :class="[ready ? 'bg-dark/0' : 'bg-dark']"
+            :class="[ready.state1 ? 'bg-dark/0' : 'bg-dark']"
+            class="transition-[background-color] duration-[600ms] delay-200 z-10 relative"
+            @transitionend="ready.state2 = true"
         >
-            <h1 class="font-bold text-center">
-                <HeroHi />
-                <HeroName />
-                <HeroRole />
-                <HeroNav />
-            </h1>
+            <div class="min-h-screen flex items-center justify-center">
+                <h1 class="font-bold text-center">
+                    <HeroHi />
+                    <HeroName />
+                    <HeroRole />
+                </h1>
+            </div>
         </div>
+        <Navbar class="bottom-0 border-t-2" :class="{ 'z-10': ready.state2 }" />
     </div>
 </template>
