@@ -49,21 +49,13 @@ useMotion(target, {
                 </div>
 
                 <p class="text-sm text-light-weak mt-2">{{ description }}</p>
-                <!-- <div class="h-4"></div>
-                <div class="flex gap-3 mt-auto justify-end text-sm">
-                    <NuxtLink to="#" class="flex items-center gap-1">
-                        <span class="font-bold underline">Visit</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                            <g fill="currentColor">
-                                <path d="M10.707 10.707a1 1 0 0 1-1.414-1.414l6-6a1 1 0 1 1 1.414 1.414l-6 6Z" />
-                                <path
-                                    d="M15 15v-3.5a1 1 0 1 1 2 0V16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4.5a1 1 0 0 1 0 2H5v10h10Zm2-7a1 1 0 1 1-2 0V4a1 1 0 1 1 2 0v4Z"
-                                />
-                                <path d="M12 5a1 1 0 1 1 0-2h4a1 1 0 1 1 0 2h-4Z" />
-                            </g>
-                        </svg>
-                    </NuxtLink>
-                </div> -->
+                <div class="mt-4 flex gap-2 flex-wrap">
+                    <img class="w-8" src="/icon/nuxt.svg" />
+                    <img class="w-8" src="/icon/tailwind.svg" />
+                    <img class="w-8" src="/icon/typescript.svg" />
+                    <img class="w-8" src="/icon/express.svg" />
+                    <img class="w-8" src="/icon/sass.svg" />
+                </div>
             </div>
         </div>
     </li>
