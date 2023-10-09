@@ -3,8 +3,8 @@ const ready = useReady();
 </script>
 
 <template>
-    <div class="mt-36">
-        <div>Page: foo</div>
+    <div class="pt-36">
+        <h1 class="font-bold text-4xl text-center">Coming Soon</h1>
     </div>
 </template>
 

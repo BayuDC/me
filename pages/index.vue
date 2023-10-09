@@ -8,9 +8,6 @@ const ready = useReady();
 
 <template>
     <div>
-        <ClientOnly>
-            <Background @ready="ready.state1 = true" />
-        </ClientOnly>
         <div
             :class="[ready.state1 ? 'bg-dark/0' : 'bg-dark']"
             class="transition-[background-color] duration-[600ms] delay-200 z-10 relative"
