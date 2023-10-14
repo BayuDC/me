@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Anisaki",
+        "description": "The simplest anime schedule website.",
+        "banner": "/img/banner/anisaki.webp",
+        "stacks": [
+            "nuxt",
+            "tailwind",
+            "typescript"
+        ],
+        "githubUrl": "https://github.com/BayuDC/anisaki",
+        "previewUrl": "https://anisaki.bayudc.fun"
+    },
+    {
+        "name": "Buzzy",
+        "description": "A web app for downloading music from Soundcloud.",
+        "banner": "/img/banner/buzzy.webp",
+        "stacks": [
+            "express",
+            "sass"
+        ],
+        "githubUrl": "https://github.com/BayuDC/buzzy",
+        "previewUrl": null
+    },{
+        "name": "Todo List",
+        "description": "A simple todo list app",
+        "banner": "/img/banner/todolist.webp",
+        "stacks": ["svelte", "sass"],
+        "githubUrl": "https://github.com/BayuDC/todolist",
+        "previewUrl": "https://todo.bayudc.fun"
+    },
+    {
+        "name": "Waifuseum",
+        "description": "The gallery of cute anime girls, powered by Discord.",
+        "banner": "/img/banner/waifuseum.webp",
+        "stacks": [
+            "nuxt",
+            "tailwind",
+            "typescript"
+        ],
+        "githubUrl": "https://github.com/BayuDC/waifuseum",
+        "previewUrl": "https://waifuseum.art"
+    },
+    {
+        "name": "Waifuseum API",
+        "description": "Store anime picture collection in a Discord server.",
+        "banner": "/img/banner/waifuseum.webp",
+        "stacks": [
+            "express",
+            "fastify",
+            "mongo"
+        ],
+        "githubUrl": "https://github.com/BayuDC/waifuseum-api",
+        "previewUrl": "https://api2.waifuseum.art/docs/static/index.html"
+    },
+    {
+        "name": "Warnetku",
+        "description": "Internet cafe(warnet) management system.",
+        "banner": "/img/banner/warnetku.webp",
+        "stacks": [
+            "laravel",
+            "bootstrap"
+        ],
+        "githubUrl": "https://github.com/BayuDC/warnetku",
+        "previewUrl": null
+    }
+]

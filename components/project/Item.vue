@@ -2,7 +2,10 @@
 const props = defineProps<{
     name: string;
     description: string;
-    imgUrl: string;
+    banner: string;
+    stacks: string[];
+    previewUrl: string;
+    githubUrl: string;
 }>();
 
 import { useMotion } from '@vueuse/motion';
@@ -20,13 +23,15 @@ useMotion(target, {
         <div
             class="h-full border-2 group hover:border-secondary hover:scale-[1.02] border-light transition duration-200 rounded-xl bg-dark over grid grid-rows-[auto_1fr] overflow-hidden"
         >
-            <div class="border-b-2 group-hover:border-secondary border-light transition duration-200 overflow-hidden">
-                <img class="block transition duration-200" :src="imgUrl" alt="" />
+            <div
+                class="border-b-2 group-hover:border-secondary border-light transition duration-200 overflow-hidden bg-secondary aspect-[2/1]"
+            >
+                <img v-if="banner" class="block transition duration-200" :src="banner" alt="" />
             </div>
             <div class="p-4 flex flex-col">
                 <div class="flex items-center gap-1">
                     <h2 class="font-bold text-2xl mr-auto">{{ name }}</h2>
-                    <NuxtLink class="hover:scale-[1.10] transition" to="#">
+                    <NuxtLink v-if="githubUrl" class="hover:scale-[1.10] transition" :to="githubUrl" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path
                                 fill="currentColor"
@@ -35,7 +40,7 @@ useMotion(target, {
                         </svg>
                     </NuxtLink>
 
-                    <NuxtLink class="hover:scale-[1.10] transition" to="#">
+                    <NuxtLink v-if="previewUrl" class="hover:scale-[1.10] transition" :to="previewUrl" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
                             <g fill="currentColor">
                                 <path d="M10.707 10.707a1 1 0 0 1-1.414-1.414l6-6a1 1 0 1 1 1.414 1.414l-6 6Z" />
@@ -50,11 +55,7 @@ useMotion(target, {
 
                 <p class="text-sm text-light-weak mt-2">{{ description }}</p>
                 <div class="mt-4 flex gap-2 flex-wrap">
-                    <img class="w-8" src="/icon/nuxt.svg" />
-                    <img class="w-8" src="/icon/tailwind.svg" />
-                    <img class="w-8" src="/icon/typescript.svg" />
-                    <img class="w-8" src="/icon/express.svg" />
-                    <img class="w-8" src="/icon/sass.svg" />
+                    <img v-for="stack in stacks" class="w-8" :src="`/icon/${stack}.svg`" />
                 </div>
             </div>
         </div>
