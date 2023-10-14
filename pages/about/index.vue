@@ -6,7 +6,10 @@ const ready = useReady();
     <div class="pt-36 py-12 flex flex-col">
         <Profile />
         <Description class="mt-12" />
-        <Journey class="mt-16" />
+        <div class="grid lg:grid-cols-2">
+            <Journey class="mt-16 row-span-2" />
+            <Stack class="mt-16" />
+        </div>
     </div>
 </template>
 
