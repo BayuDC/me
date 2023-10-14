@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Born into this world",
+        "description": "",
+        "timestamp": "4 December 2003"
+    },
+    {
+        "title": "Studying at Tunas Harapan Vocational School",
+        "description": "Computer and Network Engineering",
+        "timestamp": "2019 - 2022"
+    },
+    {
+        "title": "Got 2nd place in the “LKS Web Technologies” competition",
+        "description": "Central Java provincial level",
+        "timestamp": "25 May 2022"
+    },
+    {
+        "title": "Working at Tunas Harapan Vocational School",
+        "description": "Teacher & IT Staff",
+        "timestamp": "2022 - 2023"
+    },
+    {
+        "title": "Studying at Semarang State Polytechnic",
+        "description": "Telecommunications Engineering",
+        "timestamp": "2023 - Now"
+    }
+]
