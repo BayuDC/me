@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Email",
+        "text": "me@bayudc.fun",
+        "url": "mailto:me@bayudc.fun"
+    },
+    {
+        "title": "Github",
+        "text": "BayuDC",
+        "url": "https://github.com/BayuDC"
+    },
+    {
+        "title": "Discord",
+        "text": "bayudc69",
+        "url": "https://discord.com/users/704845945325748354"
+    },
+    {
+        "title": "Facebook",
+        "text": "Bayu",
+        "url": "https://www.facebook.com/bayu.d.cahyono.71/"
+    },
+    {
+        "title": "Instagram",
+        "text": "@bayudc69",
+        "url": "https://www.instagram.com/bayudc69/"
+    },
+    {
+        "title": "Steam",
+        "text": "BayuDC",
+        "url": "https://steamcommunity.com/profiles/76561199467019447/"
+    }
+]
