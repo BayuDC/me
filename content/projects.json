@@ -20,7 +20,7 @@
             "sass"
         ],
         "githubUrl": "https://github.com/BayuDC/buzzy",
-        "previewUrl": null
+        "previewUrl": "https://buzzy-bayudc.koyeb.app"
     },{
         "name": "Todo List",
         "description": "A simple todo list app",
@@ -51,7 +51,7 @@
             "mongo"
         ],
         "githubUrl": "https://github.com/BayuDC/waifuseum-api",
-        "previewUrl": "https://api2.waifuseum.art/docs/static/index.html"
+        "previewUrl": "https://8081-7ece8772b302481c8efa67f00b5d711f.onpatr.cloud/docs/static/index.html"
     },
     {
         "name": "Warnetku",
