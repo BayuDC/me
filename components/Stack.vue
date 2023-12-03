@@ -11,7 +11,7 @@ import stacks from '~/content/stacks.json';
         <StackSection label="Frameworks and Libraries">
             <StackItem v-for="stack in stacks.frameworks" :src="stack" />
         </StackSection>
-        <StackSection label="Tools">
+        <StackSection label="Others">
             <StackItem v-for="stack in stacks.tools" :src="stack" />
         </StackSection>
     </div>
