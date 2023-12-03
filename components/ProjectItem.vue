@@ -1,14 +1,14 @@
 <script lang="ts" setup>
+import { useMotion } from '@vueuse/motion';
+
 const props = defineProps<{
     name: string;
     description: string;
     banner: string;
     stacks: string[];
-    previewUrl: string;
+    previewUrl: string | null;
     githubUrl: string;
 }>();
-
-import { useMotion } from '@vueuse/motion';
 
 const target = ref<HTMLElement>();
 
@@ -21,10 +21,10 @@ useMotion(target, {
 <template>
     <li class="h-full" ref="target">
         <div
-            class="h-full border-2 group hover:border-secondary hover:scale-[1.02] border-light transition duration-200 rounded-xl bg-dark over grid grid-rows-[auto_1fr] overflow-hidden"
+            class="h-full border-4 group hover:border-secondary hover:scale-[1.005] border-light transition duration-200 rounded-xl bg-dark over grid grid-rows-[auto_1fr] overflow-hidden hover:shadow-secondary/50 glow"
         >
             <div
-                class="border-b-2 group-hover:border-secondary border-light transition duration-200 overflow-hidden bg-secondary aspect-[2/1]"
+                class="border-b-4 group-hover:border-secondary border-light transition duration-200 overflow-hidden bg-secondary aspect-[2/1]"
             >
                 <img v-if="banner" class="block transition duration-200" :src="banner" alt="" />
             </div>
