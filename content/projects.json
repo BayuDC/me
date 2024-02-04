@@ -51,7 +51,7 @@
             "mongo"
         ],
         "githubUrl": "https://github.com/BayuDC/waifuseum-api",
-        "previewUrl": "https://8081-7ece8772b302481c8efa67f00b5d711f.onpatr.cloud/docs/static/index.html"
+        "previewUrl": "https://api2.waifuseum.art/docs/static/index.html"
     },
     {
         "name": "Warnetku",
@@ -62,6 +62,6 @@
             "bootstrap"
         ],
         "githubUrl": "https://github.com/BayuDC/warnetku",
-        "previewUrl": null
+        "previewUrl": "http://warnetku.bayudc.fun/login"
     }
 ]
