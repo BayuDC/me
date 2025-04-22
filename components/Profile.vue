@@ -7,7 +7,7 @@
         </div>
         <div class="text-center md:text-left">
             <h2 class="font-bold text-light text-2xl">Bayu Dwi Cahyono</h2>
-            <p class="font-semibold text-light-weak text-lg mt-2">Web Developer・20 Y.O・🇮🇩</p>
+            <p class="font-semibold text-light-weak text-lg mt-2">Web Developer・21 Y.O・🇮🇩</p>
         </div>
     </div>
 </template>
